@@ -6,16 +6,16 @@
     "revision": "n7.1"
   },
   {
-    "remote":    "github",
-    "repository": "MoKee/android_device_qcom_sepolicy",
+    "remote":    "BlissRoms",
+    "repository": "platform_device_qcom_sepolicy",
     "target_path": "device/qcom/sepolicy/",
-    "revision": "mkn-mr1"
+    "revision": "n7.1-caf"
   },  
   {
-    "remote":    "github",
-    "repository": "MoKee/android_device_qcom_common",
+    "remote":    "BlissRoms",
+    "repository": "platform_device_qcom_common",
     "target_path": "device/qcom/common",
-    "revision": "mkn-mr1"
+    "revision": "n7.1-caf"
   },
   {
     "remote":    "github",
