@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # FM
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
