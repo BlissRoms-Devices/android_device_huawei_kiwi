@@ -23,7 +23,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
     frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -114,6 +113,10 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     memtrack.msm8916
 
+# Doze
+PRODUCT_PACKAGES += \
+   KiwiDoze
+
 # Filesystem
 PRODUCT_PACKAGES += \
     e2fsck \
@@ -123,6 +126,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprint.msm8916 \
     fingerprintd
+
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
 
 # FM
 PRODUCT_PACKAGES += \
@@ -153,11 +160,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/cyttsp5_mt.kl:system/usr/keylayout/cyttsp5_mt.kl \
     $(LOCAL_PATH)/keylayout/goodix.kl:system/usr/keylayout/goodix.kl \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
-
-# Keyhandler
-PRODUCT_PACKAGES += \
-    CMActions \
-    com.cyanogenmod.keyhandler
 
 # Lights
 PRODUCT_PACKAGES += \
