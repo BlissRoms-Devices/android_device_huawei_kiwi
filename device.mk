@@ -124,8 +124,8 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # FlipFlap
-  PRODUCT_PACKAGES += \
-      FlipFlap
+  # PRODUCT_PACKAGES += \
+     # FlipFlap
 
 # FM
 #PRODUCT_PACKAGES += \
