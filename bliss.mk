@@ -14,8 +14,8 @@
 
 $(call inherit-product, device/huawei/kiwi/full_kiwi.mk)
 
-# Inherit some common MK stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common.mk)
 
 PRODUCT_NAME := bliss_kiwi
 BOARD_VENDOR := huawei
