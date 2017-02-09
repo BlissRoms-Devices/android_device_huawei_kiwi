@@ -1,12 +1,6 @@
 [
   {
     "remote": "github",
-    "repository": "lineageos/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision": "cm-14.1"
-  },
-  {
-    "remote": "github",
     "repository": "lineageos/android_external_sony_boringssl-compat",
     "target_path": "external/sony/boringssl-compat",
     "revision": "cm-14.1"
@@ -26,7 +20,7 @@
   {
     "remote": "github",
     "repository": "crpalmer/proprietary_vendor_huawei",
-    "target_path": "vendor/huawei/kiwi",
+    "target_path": "vendor/huawei",
     "revision": "cm-14.1-ril"
   }
 ]
