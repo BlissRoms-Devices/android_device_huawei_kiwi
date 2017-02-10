@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "lineageos/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "revision": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "lineageos/android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "lineageos/android_kernel_huawei_kiwi",
+    "target_path": "kernel/huawei/kiwi",
+    "revision": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "BlissRoms-Vendor/proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "revision": "cm-14.1-ril"
+  }
+]
