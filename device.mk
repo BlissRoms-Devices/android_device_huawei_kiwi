@@ -124,11 +124,11 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # FlipFlap
- # PRODUCT_PACKAGES += \
-  #    FlipFlap
+# PRODUCT_PACKAGES += \
+#   FlipFlap
 
 # FM
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
@@ -159,8 +159,8 @@ PRODUCT_COPY_FILES += \
 
 # Keyhandler
 #PRODUCT_PACKAGES += \
- #   CMActions \
-  #  com.cyanogenmod.keyhandler
+#   CMActions \
+#   com.cyanogenmod.keyhandler
 
 # Lights
 PRODUCT_PACKAGES += \
