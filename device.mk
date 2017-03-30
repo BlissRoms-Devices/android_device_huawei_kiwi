@@ -114,8 +114,8 @@ PRODUCT_PACKAGES += \
     memtrack.msm8916
 
 # Doze
-# PRODUCT_PACKAGES += \
-#    KiwiDoze
+PRODUCT_PACKAGES += \
+   KiwiDoze
 
 # Filesystem
 PRODUCT_PACKAGES += \
@@ -128,8 +128,8 @@ PRODUCT_PACKAGES += \
     fingerprintd
 
 # FlipFlap
-# PRODUCT_PACKAGES += \
-#     FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
 
 # FM
 PRODUCT_PACKAGES += \
@@ -256,6 +256,3 @@ PRODUCT_COPY_FILES += \
 ifneq ($(QCPATH),)
 PRODUCT_BOOT_JARS += WfdCommon
 endif
-
-#AIDL Helper
-LOCAL_AIDL_INCLUDES += $(FRAMEWORKS_BASE_JAVA_SRC_DIRS) 

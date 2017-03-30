@@ -188,10 +188,10 @@ void vendor_load_properties()
     hwsim = property_get("ro.boot.hwsim");
 
     if (hwsim == "single") {
-        property_set("ro.telephony.default_network", "22");
+        property_set("ro.telephony.default_network", "9");
     } else {
         property_set("persist.radio.multisim.config", "dsds");
         property_set("ro.telephony.ril.config", "simactivation,sim2gsmonly");
-        property_set("ro.telephony.default_network", "22,9");
+        property_set("ro.telephony.default_network", "9,9");
     }
 }
