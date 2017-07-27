@@ -13,7 +13,7 @@
   },
   {
     "remote": "github",
-    "repository": "lineageos/android_kernel_huawei_kiwi",
+    "repository": "BlissRoms-Kernels/android_kernel_huawei_kiwi",
     "target_path": "kernel/huawei/kiwi",
     "revision": "cm-14.1"
   },
